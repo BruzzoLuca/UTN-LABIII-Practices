@@ -1,0 +1,25 @@
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(153, 69, 69, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 10px 10px 20px rgba(237, 228, 228, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #cfcdcd;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #c6baba;
+  }
